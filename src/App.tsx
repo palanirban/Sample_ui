@@ -16,8 +16,8 @@ function App() {
         <div className='flex flex-col gap-4'>
           <div>
             <p className='text-slate-300 text-xs'>THE EVENT AGENCY</p>
-            <p className='font-bold text-white text-lg'>Convergence</p>
-            <p className='text-blue-900 drop-shadow-lg'>INNOVATE,CREATE,ENTHUSE</p>
+            <p className='font-bold text-white text-2xl'>Convergence</p>
+            <p className='text-blue-900 drop-shadow-lg text-2xl font-bold'>INNOVATE,CREATE,ENTHUSE</p>
           </div>
           <div className='flex gap-2 items-center text-sm'>
             <div className='px-4 font-bold bg-white rounded-md'>
@@ -123,31 +123,31 @@ function App() {
             <div className='flex flex-col gap-4 mt-4'>
               <div className='flex gap-16 items-center'>
                 <h1 className='text-xs'>YOUR NAME*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
               <div className='flex gap-2 items-center '>
                 <h1 className='text-xs'>YOUR PHONE NUMBER*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
               <div className='flex gap-12 items-center '>
                 <h1 className='text-xs'>EMAIL ADDRESS*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
               <div className='flex gap-2 items-center '>
                 <h1 className='text-xs'>ORGANISING COMPANY*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
-              <div className='flex gap-16 items-center '>
+              <div className='flex gap-12 items-center '>
                 <h1 className='text-xs'>CONFERENCE*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
               <div className='flex gap-8 items-center '>
                 <h1 className='text-xs'>CONFERENCE DATE*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
               <div className='flex gap-12 items-center'>
                 <h1 className='text-xs'>YOUR MESSAGE*</h1>
-                <input type="text" className='bg-purple-950' />
+                <input type="text" className='bg-purple-950 w-2/3' />
               </div>
             </div>
           </div>
